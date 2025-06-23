@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import url(https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic);
+
+body {
+  font-family: 'Plus Jakarta Sans';
+}
+
+@theme {
+  --animate-bounce-right {
+    animation: bounce-right 1s infinite;
+  }
+  @keyframes bounce-right {
+    0%, 100% {
+      transform: translateX(0);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateX(25%);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+}
+
