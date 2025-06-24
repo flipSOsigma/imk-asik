@@ -11,7 +11,7 @@ const Profile = () => {
         <div className="mb-6 bg-white px-8 pb-8 shadow flex gap-2 items-start">
           <div className="bg-white aspect-square w-26 rounded-full border"></div>
           <div className="flex flex-col ml-4 items-start">
-            <h1 className="flex items-center gap-2 font-bold text-xl">Naufal Alif Mahendra</h1>
+            <h1 className="flex items-center gap-2 font-bold text-xl">Ganeswari</h1>
             <p>personal information</p>
             <p className="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, eaque.</p>
             <button className='py-2 px-4 rounded bg-blue-500 mt-4 text-white flex items-center gap-2 text-sm'><BiPen/> edit profile</button>
